@@ -12,7 +12,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.IsaevMA.Sprint5.Task0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.IsaevMA.Sprint5.Task0.V25.Test", "Tyuiu.IsaevMA.Sprint5.Task0.Test\Tyuiu.IsaevMA.Sprint5.Task0.V25.Test.csproj", "{5716D0FE-F2B4-4F5A-879F-54C41242B3B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.IsaevMA.Sprint5.Task0..V25Lib", "Tyuiu.IsaevMA.Sprint5.Task0.Lib\Tyuiu.IsaevMA.Sprint5.Task0..V25Lib.csproj", "{E3AFA742-1201-4DA2-ACEC-286D20C6E01A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.IsaevMA.Sprint5.Task0.V25Lib", "Tyuiu.IsaevMA.Sprint5.Task0.Lib\Tyuiu.IsaevMA.Sprint5.Task0.V25Lib.csproj", "{E3AFA742-1201-4DA2-ACEC-286D20C6E01A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tyuiu.IsaevMA.Sprint5.Task1.V13", "Tyuiu.IsaevMA.Sprint5.Task1.V13", "{719DA209-5A80-4593-807B-D7BB4DBB1B67}"
 EndProject
