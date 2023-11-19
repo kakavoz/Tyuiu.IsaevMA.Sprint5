@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 using System.IO;
 using tyuiu.cources.programming.interfaces.Sprint5;
 
-namespace Tyuiu.IsaevMA.Sprint5.Task0.V12.Lib
+namespace Tyuiu.IsaevMA.Sprint5.Task0.V25.Lib
 {
-    public class DataService : ISprint5Task0V12
+    public class DataService : ISprint5Task0V25
     {
         public string SaveToFileTextData(int x)
         {

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Tyuiu.IsaevMA.Sprint5.Task0.V12.Lib;
+using Tyuiu.IsaevMA.Sprint5.Task0.V25.Lib;
 
-namespace Tyuiu.IsaevMA.Sprint5.Task0.V12
+namespace Tyuiu.IsaevMA.Sprint5.Task0.V25
 {
     internal class Program
     {
