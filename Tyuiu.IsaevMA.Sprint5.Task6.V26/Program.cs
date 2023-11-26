@@ -6,12 +6,10 @@ using System.Threading.Tasks;
 
 using System.IO;
 
-using Tyuiu.IsaevMA.Sprint5.Task4.V5.Lib;
+using Tyuiu.IsaevMA.Sprint5.Task5.V26.Lib;
 
-namespace Tyuiu.IsaevMA.Sprint5.Task4.V5
+namespace Tyuiu.IsaevMA.Sprint5.Task5.V26
 {
-
-
     class Program
     {
         static void Main(string[] args)
@@ -21,27 +19,27 @@ namespace Tyuiu.IsaevMA.Sprint5.Task4.V5
             //Длина строки 75 символов
             Console.WriteLine("**********************************************************************************************************************");
             Console.WriteLine("* Спринт #5                                                                                                          *");
-            Console.WriteLine("* Тема: Чтение данных из текстового файла                                                                            *");
-            Console.WriteLine("* Задание #4                                                                                                         *");
-            Console.WriteLine("* Вариант #8                                                                                                         *");
+            Console.WriteLine("* Тема: Чтение набора данных из текстового файла                                                                     *");
+            Console.WriteLine("* Задание #5                                                                                                         *");
+            Console.WriteLine("* Вариант #26                                                                                                        *");
             Console.WriteLine("* Выполнил: Исаев Максим Александрович | ACOиУБ-23-3                                                                 *");
             Console.WriteLine("**********************************************************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                                                           *");
-            Console.WriteLine("* Дан файл С:/DataSprint5/InPutDataFileTask4v5.txt в котором есть вещественное значение.                             *");
-            Console.WriteLine("* Прочитать значение из файла и подставить вместо Х в формуле.                                                       *");
-            Console.WriteLine("* Вычислить значение по формуле и вернуть полученный результат на консоль.                                           *");
+            Console.WriteLine("* Дан файл С:/DataSprint5/InPutDataFileTask5V26.txt в котором есть набор значений.Найти разницу между суммой всех    *");
+            Console.WriteLine("* положительных и отрицательных вещественных чисел в файле.Результат округлить до 3 знаков после запятой.            *");
+            Console.WriteLine("* Полученный результат вывести на консоль. У вещественных значений округлить до трёх знаков после запятой.           *");
             Console.WriteLine("**********************************************************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                                                                   *");
             Console.WriteLine("**********************************************************************************************************************");
 
-            string path = @"C:\DataSprint5\InPutDataFileTask4V5.txt";
+            string path = @"C:\DataSprint5\InPutDataFileTask5V26.txt";
 
             Console.WriteLine("Данные находятся в файле: " + path);
             Console.WriteLine("**********************************************************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                                                                         *");
             Console.WriteLine("**********************************************************************************************************************");
             double res = ds.LoadFromDataFile(path);
-            Console.WriteLine(res);
+            Console.WriteLine("Разница между суммой положительных и отрицательных чисел = " + res);
             Console.ReadKey();
         }
     }

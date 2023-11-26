@@ -1,5 +1,4 @@
 ﻿using System;
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,9 +8,10 @@ using System.IO;
 
 using tyuiu.cources.programming.interfaces.Sprint5;
 
-namespace Tyuiu.IsaevMA.Sprint5.Task4.v5.Lib
+
+namespace Tyuiu.IsaevMA.Sprint5.Task4.V5.Lib
 {
-    public class DataService : ISprint5Task4v5
+    public class DataService : ISprint5Task4V5
     {
         public double LoadFromDataFile(string path)
         {
