@@ -5,11 +5,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D5C08C19-0866-4326-BEBE-A81F9E3C336A}</ProjectGuid>
+    <ProjectGuid>{B808A66B-EE70-413E-9A53-BBF71A26BC1D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Tyuiu.IsaevMA.Sprint5.Task6.V26.Test</RootNamespace>
-    <AssemblyName>Tyuiu.IsaevMA.Sprint5.Task6.V26.Test</AssemblyName>
+    <RootNamespace>Tyuiu.IsaevMA.Sprint5.SprintReview.V14.Test</RootNamespace>
+    <AssemblyName>Tyuiu.IsaevMA.Sprint5.SprintReview.V14.Test</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -56,9 +56,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Tyuiu.IsaevMA.Sprint5.Task5.V26.Lib\Tyuiu.IsaevMA.Sprint5.Task5.V26.Lib.csproj">
-      <Project>{2a6e28db-5a6b-4d97-8e19-44d319b5460a}</Project>
-      <Name>Tyuiu.IsaevMA.Sprint5.Task5.V26.Lib</Name>
+    <ProjectReference Include="..\Tyuiu.IsaevMA.Sprint5.SprintReview.V14.Lib\Tyuiu.IsaevMA.Sprint5.SprintReview.V14.Lib.csproj">
+      <Project>{45faf73d-af8c-4b55-856b-668cd4b0343a}</Project>
+      <Name>Tyuiu.IsaevMA.Sprint5.SprintReview.V14.Lib</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
